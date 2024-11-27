@@ -1,7 +1,17 @@
+
+
+
+
+                   // Introduction (1)
+
+
+
+
+ 
+             // Ducoument - Console - Window
+
 // console.log("hii tayler")
 // window.alert("tap ok to continue")
-
-
 // document.querySelector("h1").style.color ="red";
 // document.write("<h3>trtrtr</h3>")
 // document.querySelector("h3").style.color ="blue";
@@ -13,6 +23,8 @@
 // alert("ksksks") 
 // print("fas")
 
+
+             // Convert to int
 
 // let x = -"3";
 // let y = 21;
@@ -26,6 +38,19 @@
 // console.log(parseFloat('8.4 aefwef'));
 
 
+
+
+
+
+
+                   // Number (2)
+
+
+
+
+
+             // Naumber ==> object 
+
 // console.log(Number.isSafeInteger(56));
 // console.log(Number.isInteger(56));
 // console.log(Number.isNaN('SFGS' - 4));
@@ -34,6 +59,8 @@
 // console.log(Number.MAX_SAFE_INTEGER);
 // console.log(Number.MIN_SAFE_INTEGER);
 
+
+             // Math ==> object
 
 // console.log(Math.E);
 // console.log(Math.PI);
@@ -48,3 +75,114 @@
 
 // let Zakah = window.prompt();
 // console.log(0.025 * Zakah + ' ليره لبنانيه');
+
+
+
+
+
+
+                   // String (3)
+
+
+
+
+             // String
+
+// let x=7;
+// console.log(x.toString());
+// console.log(String(x));
+// console.log(5..toString());
+// console.log((3).toString());
+
+
+             // name ==> Object
+
+// let namee = "Mahmoud fuck lana"
+
+// console.log(namee.repeat(3));
+// console.log(namee.length);
+// console.log(namee.charAt(4)); 
+// console.log(namee[4]); 
+// console.log(namee.split("m")); 
+
+
+             // Cut
+
+// console.log(namee.slice(7)); 
+// console.log(namee.substring(0,8)); 
+// console.log(namee.substr(0,8)); 
+
+             // Search in string
+
+// console.log(namee.indexOf("u")); 
+// console.log(namee.lastIndexOf("u")); 
+// console.log(namee.includes("f"));
+// console.log(namee.startsWith("f",8));
+// console.log(namee.endsWith("d",7));
+
+
+
+
+
+
+
+
+
+                   // Array (4)
+
+
+             // Array Delete and Add
+
+// let names = ['salem','mahmoud','ali','dema'];
+
+// names[0]='khara'
+// names.unshift('mazen');   //  delete from start
+// names.shift();          //  delete from start
+// names.push('gigi');    //  add from end
+// names.pop();            //  delete from end 
+
+
+             // delete with add to array
+
+// names.splice(0,2,'moha','six')
+// names.slice(0,3)
+// console.log(names.slice(0,3));   
+
+
+
+             // Search in array
+
+// let names = ['salem','mahmoud','ali','dema'];
+
+// console.log(names.indexOf('salem',1));
+// console.log(names.lastIndexOf('dema',3));
+// console.log(names.includes('dema'));
+
+
+
+             // Reverse and Sort(tarteb)
+
+
+// let names = ['salem','mahmoud','ali','dema'];
+
+// console.log(names.reverse());
+// console.log(names.sort());
+
+
+             // Concatinate and join
+
+// let names = ['salem','mahmoud','ali','dema'];
+// let okk = ['sa','ma','al','de'];
+
+// names = names.concat(okk);
+// console.log(names);
+// console.log(names.join(' # '));
+
+
+
+
+
+
+
+
+                   //  (5)
