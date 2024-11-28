@@ -181,8 +181,56 @@
 
 
 
+                             
+
+                   // Condition (5)
+
+
+
+// let question = prompt("enter the user name");
+// let user = "tayler";
+// console.log(question.toLowerCase().trim()==user);
 
 
 
 
-                   //  (5)
+// == Value 
+// === Datatype and Value
+//     <    >    =!    <=    >=  ,  &&     ||
+
+
+
+
+
+// let Car = prompt("Choose ==> red | blue | green");
+
+// if (Car.toLowerCase().trim() == "red") {
+//       document.write("BMW");
+// }
+// else if (Car.toLowerCase().trim() == "blue") {
+//       document.write("Marcedes");
+// }
+// else if (Car.toLowerCase().trim() == "green") {
+//       document.write("Vlovo");
+// }
+// else {
+//       document.write("Nothing");
+// }
+
+
+//         Another Way (Shorter)
+
+// let age = prompt("enter ur age")
+// age > 18? 
+//       document.write("U R Accepted")
+//       :age==18? 
+//           document.write("U R Also Accepted")
+//           :document.write("U R Very Young");
+
+
+//         Another Way (Shortest) 
+
+// let age = prompt("enter ur age");
+// let result = age>18? "U R Accepted":age==18?"U R Also Accepted":"U R Very Young";
+// console.log(result);
+
