@@ -1,7 +1,6 @@
 
 
 
-
                    // Introduction (1)
 
 
@@ -218,6 +217,8 @@
 // }
 
 
+
+
 //         Another Way (Shorter)
 
 // let age = prompt("enter ur age")
@@ -233,4 +234,54 @@
 // let age = prompt("enter ur age");
 // let result = age>18? "U R Accepted":age==18?"U R Also Accepted":"U R Very Young";
 // console.log(result);
+
+
+
+//        Switch
+
+// let pwd = prompt("Enter Ur pwd");
+// switch(pwd){
+//       case "tayler":
+//             console.log("Welcome Boss");
+//             break;
+//       case "wael":
+//             console.log("Welcome wl");
+//             break;
+//       default:
+//             console.log("Nfo5o");
+// }
+
+
+
+
+
+
+                   // LOOP (6)
+
+         
+                   
+
+
+//  for (let i=0;i<=10;i+=2){
+//       console.log(i);
+//  }
+
+
+
+
+// let names = ["ahmad","ali","moha","sara","dema"];
+
+// for (let i =0;i<names.length;i++){
+//       console.log(names[i]);
+// }
+
+
+// for (let i=names.length;i>=0;i--){
+//       console.log(names[i]);
+// }
+
+
+
+ 
+
 
