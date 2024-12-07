@@ -421,3 +421,73 @@
 
 
 
+
+
+
+// scope and self invoke 
+
+
+// function x (){
+//       console.log(1);
+// }
+
+// x();
+
+
+// (function () { //  ( Self-Invoke ) U can use it to save ur Variabel from rewrite
+//       var i = 1 ;
+//       console.log(i);
+// })();
+
+// console.log(i); //ma fek testa3mela l2no sar local  
+
+
+
+
+
+
+
+//arrow funtion //Short way to write funtion
+
+
+// let y = _ => 3;
+// console.log (y());
+
+// let x = num => num*3;
+// console.log (x(6));
+
+// let z = (t,r) => t*r;
+// console.log (z(6,2));
+
+
+
+
+// Default Value for Arguments
+
+// function hello(name="tayler") {
+//       console.log(`Hello ${name}`);
+// }
+
+// hello ();     //    <=== Arguments ( Between brackets )
+
+
+
+// Array inside function 
+
+// function calc ( ...number ){
+//       let result = 0;
+//       for(let i = 0 ; i < number.length ; i++){
+//             result += number[i];
+//       }
+//       console.log(result)
+// }
+
+// calc (8,7,5,7,7,6,7);
+
+
+
+
+
+
+
+                   // Object (8)
