@@ -285,3 +285,139 @@
  
 
 
+// nested loop
+
+
+// let cars = ["bmw", "mercedes", "volvo"];
+// let color = ["red", "blue", "yellow"];
+// let model = ["2020", "2021", "2022"];
+
+// for (let i = 0; i < cars.length; i++) { 
+//     console.log(`Car : ${cars[i]}`);
+//     console.log("* * *");
+
+//     for (let j = 0; j < color.length; j++) { 
+//         console.log(`Color : ${color[j]}`);
+//     }
+
+//     console.log("* * *");
+//     for (let c = 0; c < model.length; c++) { 
+//         console.log(`Model : ${model[c]}`);
+//     }
+
+//     console.log("______________");
+// }
+
+
+
+//Break & Continue
+
+// let names = ["mahmoud","Ali","sara",1,2,11,4,5,"gamal","lolo"];
+// for ( let i = 0 ; i < names.length ; i++){
+    
+//       if (typeof names[i]!="number"){
+//             continue;
+//       }
+    
+//       console.log(names[i]);
+
+// }
+
+
+
+
+
+
+// While & Do-While
+
+// let i = 0 ; 
+
+// while ( i < 3 ){
+//       document.write("<h1>Hello Tayler</h1>");
+//       i++ ;
+// }
+
+
+// let j = 0 ; 
+
+// do{
+//       document.write("<h1>Wael</h1>");
+//       j++ ;
+// }
+
+// while  ( j < 0 );
+
+
+
+
+
+
+
+
+                   // FUNCTION (7)
+
+
+
+
+
+// function pro (price,taxes,ads){
+
+//       let product = price + taxes ;
+//       let result = product + ads ;
+//       console.log(result);
+// }
+
+// pro(300,3.2,30);
+
+
+
+
+// Return        بتساعد باستعمال المتغير براالمعادله 
+
+
+// function AgeByDays(age) {
+//       let result = age * 365 ; 
+//       return result ;
+// }
+
+// let day = AgeByDays(30);
+
+// function AgeByHours(age) {
+//       let result = day * 24 ; 
+//       return result ;
+// }
+
+// let hour = AgeByHours(day);
+
+// console.log (hour);
+
+
+
+
+
+// hoisting
+
+// console.log(x)     ==> error
+// let x = 10 ;
+
+
+// console.log(x)     ==> 10
+// var x = 10 ;
+
+
+
+// hello();     ==> 1
+
+// function hello (){
+//       return 1;
+// }
+
+
+// hello();     ==> error
+
+//  let hello = function() {
+//       return 1;
+// }
+
+
+
