@@ -491,3 +491,228 @@
 
 
                    // Object (8)
+
+
+
+
+
+       // Create object and give it (Property & Method(Function))
+
+
+
+//   let car = {
+//       title: "mercedes",
+//       color: ["black","white","red"],
+//       model: [2020,2021,2022],
+
+//       go: function() {
+//             return 1;
+//       }
+//   };
+
+// console.log (car.go());
+
+
+
+
+
+//                            BIG EXAMPLE
+
+
+
+// let x = prompt();
+
+// let user = {
+
+//       //Property
+//       name: "mahmoud",
+//       age: x,
+//       gender: "male",
+//       major: "IT",
+//       active: true ,
+
+//       phonenumber: {
+//             first: 0210120,
+//             second: 9999999,
+//       },
+
+
+//       //Method
+//       isActive: function(){
+//             if (user.active === true ){
+//                   return "u are active";
+//             }
+//             else 
+//                   return "u are not active";
+//       },
+
+
+//       getAge: function(){
+//             if (user.age > 18 ){
+//                   return "U r accepted";
+//             }
+//             else 
+//                   return "U r rejected";
+//       }
+
+// }
+
+
+// console.log(user.getAge());
+
+
+
+
+
+
+// add properties or method outside the object
+
+
+// let car = {};
+// car.title = "BMW";
+// car.hello = function(){
+//       return "Hello tayler"
+// }
+
+
+// // another way to create object
+
+// let user = new Object({
+//       name: "Mahmoud"
+// })
+
+// user.age = 22;
+
+
+// // print
+
+// console.log (car.hello());
+// console.log (user.name);
+// console.log (user.age);
+
+
+
+
+
+
+
+// this  keyword 
+
+
+// let car = {
+//       name: "BMW",
+
+//       getName: function(){
+//             return this.name;       //this means object which is car
+//       }
+// }
+
+// console.log (car.getName());
+
+
+
+
+
+// let x = this ;           //this means object which is window
+// console.log (x);      
+
+
+
+
+
+// let y = function(){
+//     return this;      //in function = this also means object which is window
+// }
+
+// console.log (y());  
+
+
+
+// however in function with "strict mode" ==> undefined  
+// to turn on srtict mode    (   المود الصارم   ) ==> "use strict"
+
+
+
+
+
+
+{/* <button onclick=”this.style.color=‘red’“> Submit </button> */}
+
+//                      |
+//                      |               
+
+//this in EVENT refer to the object which is button 
+
+
+
+
+
+
+//                       Object.Create()
+
+
+
+// let user = {     //create object
+
+//       name: "mahmoud",
+
+//       getName: function () {
+//             return `Hello ${this.name}`; // use this to fix error
+//       }
+// }
+
+// // print object user 
+
+// console.log (user.getName())
+
+
+// // create another object and copy data from user to user2
+
+// let user2 = Object.create(user);
+// user2.name = "sami"
+// console.log (user2.getName());
+
+
+
+
+
+
+
+// Merge ( دمج ) objects 
+
+
+
+// let a1 = {
+//       num1: 1,
+
+//       hello: function () {
+//             return `num1 is ${this.num1}`
+//       }
+
+// }
+
+
+// let a2 = {
+//       num2: 2,
+// }
+
+// let a3 = {
+//       num3: 3,
+// }
+
+
+// let a4 = Object.assign(a1,a2,a3,{
+//       num99: 99,
+// })
+
+// console.log(a4);
+
+
+
+
+
+
+
+
+
+                   // DOM (9)
