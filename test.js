@@ -648,7 +648,7 @@
 
 
 
-//                       Object.Create()
+//                     Object.Create() to copy object
 
 
 
@@ -678,7 +678,7 @@
 
 
 
-// Merge ( دمج ) objects 
+// Merge ( دمج ) objects ==> Object.assign
 
 
 
