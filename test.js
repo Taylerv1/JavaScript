@@ -719,7 +719,7 @@
 
 
 
-            // Selector in JS
+             // Selector in JS
 
 
 // document.getElementById("ww").style.color="red";
@@ -732,6 +732,59 @@
 // document.title
 // document.images
 // document.forms
+
+
+
+
+
+
+             // Set & Get in JS
+
+
+// let img = document.querySelector(".xx");
+
+// Set :
+
+// img.setAttribute("alt","coooool");  // Set
+// img.setAttribute("title","wennns");  // Add
+
+
+// Get :
+
+// console.log(img.hasAttributes());
+// console.log(img.hasAttribute("class"));
+// console.log(img.attributes);
+// console.log(img.attributes[2]);
+
+
+// Remove :
+
+// img.removeAttribute("alt");
+// img.removeAttribute("id");
+
+// console.log (img);
+
+
+
+
+
+
+
+             // Sibling & Parents
+
+
+// let h1 = document.getElementById("xx");
+
+// console.log(h1.previousElementSibling)  // previous element 
+// console.log(h1.previousSibling)  //  previous any thing
+
+// console.log(h1.nextElementSibling)  // next element 
+// console.log(h1.nextSibling)  // next any thing
+
+// console.log(h1.parentElement.style.background = "#444")  // Element's Parent
+
+
+
 
 
 
