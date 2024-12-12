@@ -716,3 +716,24 @@
 
 
                    // DOM (9)
+
+
+
+            // Selector in JS
+
+
+// document.getElementById("ww").style.color="red";
+// document.getElementsByClassName("gg")[0].style.color = "green";
+// document.getElementsByTagName("p")[1].style.color = "blue";
+// document.querySelector(".fuc").style.background = "#444";
+// document.querySelector("#qq").style.background = "#af1";
+// document.body 
+// document.links
+// document.title
+// document.images
+// document.forms
+
+
+
+
+
