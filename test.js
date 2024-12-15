@@ -990,3 +990,39 @@
 
 
 
+
+// Events ==> Different Between AddeventListener & OnEvent(onclick)
+
+
+
+
+
+// onclick ==> just 1 event 
+
+// let btn = document.getElementById("btn")
+
+// btn.onclick = function () {
+//       console.log ("tayllerr");
+// }
+  
+// addEventListener 2 or more event
+
+// btn.addEventListener("click",function(){
+
+//       console.log("hello");
+// })
+
+// btn.addEventListener("click",btn.style.backgroundColor = "#333")
+
+
+
+// let btn = document.getElementById("btn");
+
+// // btn.onclick
+// btn.onmouse = () => {
+//       document.body.style.backgroundColor = "#444"
+// }
+
+
+
+
