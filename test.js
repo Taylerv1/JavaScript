@@ -790,3 +790,203 @@
 
 
 
+// Inner & Outer Html // Inner & Outer text 
+
+
+// let box = document.querySelector("#box");
+
+// box.innerText = "<h1> tayleeerrr </h1>";
+// box.outerText = "<h1> tayleeerrr </h1>";
+// box.innerHTML = "<h1> tayleeerrr </h1>";
+// box.outerHTML = "<h1> tayleeerrr </h1>";
+// box.textContent = "tayleerr";
+
+// console.log(box);
+
+
+
+
+
+
+
+//                 3 Ways to add style in JS 
+
+
+
+
+// let container = document.getElementById ("container") ;
+// container.innerHTML = "<h1> Tayler Space </h1>";
+
+
+// element.style.property  ==> 1st Way
+
+// container.style.backgroundColor = "#444";
+// container.style.color = "#fff";
+// container.style.padding = "10px";
+// container.style.margin = "10px";
+// container.style.letterSpacing = "1.3px";
+// container.style.borderLeft = "7px solid yellow";
+
+
+
+// Remove Property
+
+// container.style.removeProperty("border-left")
+
+
+
+// container.style.setProperty ( , )  ==> 2nd Way
+
+// container.style.setProperty("border-left","11px solid red")
+
+
+
+
+
+// element.style.cssText  ==> 3rd Way
+
+// container.style.cssText = `
+
+// background-color: #fff;
+// padding : 10px;
+// margin : 10px;
+// letter-spacing : 1.3px;
+// border-left : 11px solid yellow;
+
+// `
+
+
+
+
+
+
+
+
+
+
+//          Add Html & Css content in JS file
+
+
+
+
+
+
+// 1st Way 
+
+// document.body.innerHTML += `
+// <h3> kkkkkkk </h3>
+
+// `
+
+
+
+// 2nd Way
+
+
+
+//  1 - Create Element
+
+// let container = document.createElement("div");
+// let text = document.createElement("h1");
+// let img = document.createElement ("img");
+
+
+//  2 - Add a value for elements
+
+// let content = document.createTextNode ("Tayler World")
+// img.src = "jpg-1.jpg"
+
+
+//  3 - add the elements to the body
+
+// text.appendChild(content);
+
+// container.appendChild(text);
+// container.appendChild(img);
+
+// document.body.appendChild(container);
+
+
+
+// img.style.width = "200px";
+// container.style.setProperty("background-color","#444");
+// container.style.color = "#aa3";
+// container.style.textAlign = "center";
+// container.style.padding = "10px";
+// container.style.setProperty("border-top","14px solid #aa3");
+
+
+
+
+
+
+
+
+//                        Project - Cards
+
+
+
+// let names = ["Ahmad","Mode","Ali","salem"];
+// let ages = ["14 years old","22 years old","30 years old","17 ears old"];
+
+// let container = document.createElement("div");
+// document.body.appendChild(container);
+// container.style.textAlign = "canter";
+
+
+// function element (names,ages) {
+
+//       //Create
+
+//       let card = document.createElement("div");
+//       let text = document.createElement("h3");
+//       let age = document.createElement("p");
+//       let img = document.createElement("img");
+
+
+//       // Add Value
+
+//       let textContent = document.createTextNode (names);
+//       let ageContent = document.createTextNode (ages);
+//       img.src = "jpg-1.jpg"
+
+
+//       //Add to container
+//       container.appendChild(card)
+//       card.appendChild(text);
+//       card.appendChild(age);
+//       card.appendChild(img)
+//       text.appendChild(textContent);
+//       age.appendChild(ageContent);
+
+//       //Add All to body
+//       document.body.appendChild(container)
+
+//       //Style
+
+//       card.style.setProperty("width","200px");
+//       card.style.textAlign = "center";
+//       card.style.backgroundColor = "#444";
+//       card.style.padding = "10px";
+//       card.style.margin = "5px";
+//       card.style.display = "inline-block";
+//       card.style.borderRadius = "30px";
+
+//       img.style.setProperty("width","100%");
+//       img.style.setProperty("border-radius","30px");
+
+
+
+// }
+
+// for (let i = 0 ; i < 4 ; i ++) {
+
+//       element(names[i],ages[i]);
+
+// }
+
+
+
+
+
+
