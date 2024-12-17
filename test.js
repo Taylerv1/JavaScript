@@ -1,13 +1,13 @@
 
 
 
-                   // Introduction (1)
+ //                   Introduction (1)
 
 
-
+                  
 
  
-             // Ducoument - Console - Window
+//              Ducoument - Console - Window
 
 // console.log("hii tayler")
 // window.alert("tap ok to continue")
@@ -23,7 +23,7 @@
 // print("fas")
 
 
-             // Convert to int
+//              Convert to int
 
 // let x = -"3";
 // let y = 21;
@@ -42,13 +42,13 @@
 
 
 
-                   // Number (2)
+//                    Number (2)
 
 
 
 
 
-             // Naumber ==> object 
+//              Naumber ==> object 
 
 // console.log(Number.isSafeInteger(56));
 // console.log(Number.isInteger(56));
@@ -59,7 +59,7 @@
 // console.log(Number.MIN_SAFE_INTEGER);
 
 
-             // Math ==> object
+//              Math ==> object
 
 // console.log(Math.E);
 // console.log(Math.PI);
@@ -80,12 +80,12 @@
 
 
 
-                   // String (3)
+ //                   String (3)
 
 
 
 
-             // String
+//              String
 
 // let x=7;
 // console.log(x.toString());
@@ -94,7 +94,7 @@
 // console.log((3).toString());
 
 
-             // name ==> Object
+//              name ==> Object
 
 // let namee = "Mahmoud fuck lana"
 
@@ -105,13 +105,13 @@
 // console.log(namee.split("m")); 
 
 
-             // Cut
+//              Cut
 
 // console.log(namee.slice(7)); 
 // console.log(namee.substring(0,8)); 
 // console.log(namee.substr(0,8)); 
 
-             // Search in string
+//              Search in string
 
 // console.log(namee.indexOf("u")); 
 // console.log(namee.lastIndexOf("u")); 
@@ -127,10 +127,10 @@
 
 
 
-                   // Array (4)
+//                    Array (4)
 
 
-             // Array Delete and Add
+//              Array Delete and Add
 
 // let names = ['salem','mahmoud','ali','dema'];
 
@@ -141,7 +141,7 @@
 // names.pop();            //  delete from end 
 
 
-             // delete with add to array
+//              delete with add to array
 
 // names.splice(0,2,'moha','six')
 // names.slice(0,3)
@@ -149,7 +149,7 @@
 
 
 
-             // Search in array
+//              Search in array
 
 // let names = ['salem','mahmoud','ali','dema'];
 
@@ -159,7 +159,7 @@
 
 
 
-             // Reverse and Sort(tarteb)
+//              Reverse and Sort(tarteb)
 
 
 // let names = ['salem','mahmoud','ali','dema'];
@@ -168,7 +168,7 @@
 // console.log(names.sort());
 
 
-             // Concatinate and join
+//              Concatinate and join
 
 // let names = ['salem','mahmoud','ali','dema'];
 // let okk = ['sa','ma','al','de'];
@@ -182,7 +182,7 @@
 
                              
 
-                   // Condition (5)
+//                    Condition (5)
 
 
 
@@ -256,7 +256,7 @@
 
 
 
-                   // LOOP (6)
+//                    LOOP (6)
 
          
                    
@@ -354,7 +354,7 @@
 
 
 
-                   // FUNCTION (7)
+//                    FUNCTION (7)
 
 
 
@@ -490,7 +490,7 @@
 
 
 
-                   // Object (8)
+//                    Object (8)
 
 
 
@@ -715,11 +715,11 @@
 
 
 
-                   // DOM (9)
+//                    DOM (9)
 
 
 
-             // Selector in JS
+//              Selector in JS
 
 
 // document.getElementById("ww").style.color="red";
@@ -738,7 +738,7 @@
 
 
 
-             // Set & Get in JS
+//              Set & Get in JS
 
 
 // let img = document.querySelector(".xx");
@@ -770,7 +770,7 @@
 
 
 
-             // Sibling & Parents
+//              Sibling & Parents
 
 
 // let h1 = document.getElementById("xx");
@@ -1016,13 +1016,224 @@
 
 
 
-// let btn = document.getElementById("btn");
 
-// // btn.onclick
-// btn.onmouse = () => {
-//       document.body.style.backgroundColor = "#444"
+
+
+//           Mouse events
+
+// let btn = document.getElementById("btn");
+// btn.onclick  //        الضغط ضغطه كامله   
+// btn.onmousedown  //     عند الضغط على زر الفأرة فوق العنصر
+// btn.onmouseover  //      عندما يأتي مؤشر الماوس فوق العنصر 
+// btn.onmousemove     //      عندما يتحرك الماوس فوق العنصر
+// btn.onmouseout     //  عندما يغادر مؤشر الماوس العنصر
+
+// btn.onmouseup= () => {     //  عندما يتم تحرير زر الماوس فوق العنصر
+//       document.body.style.backgroundColor = "#444"   
+// }
+
+
+//           Keyboard events
+
+// let input = document.getElementById("input");
+
+// input.onkeydown    // عندما يضغط المستخدم على المفتاح
+// input.onkeyup = () => {    // عندما يقوم المستخدم بتحرير المفتاح
+//      input.style.border = "11px red solid"
+// }
+
+
+//           Form events
+
+// let submit = document.getElementById("submit");
+
+
+// submit.onfocus   //  عندما يركز المستخدم على عنصر
+// form.onsubmit    // عندما يرسل المستخدم ال form
+// input.onblur     //  عندما يكون التركيز بعيدًا عن عنصر ال form
+// onchange          //   عندما يقوم المستخدم بتعديل أو تغيير قيمة عنصر ال form
+
+// let Form = document.getElementById("form");
+
+// input.onblur=  () => {    
+//             document.body.style.backgroundColor = " red ";
+//        }
+
+
+
+
+//           Window/Document events
+
+
+// onload         // عندما ينتهي المتصفح من تحميل الصفحة
+// onunload       // عندما يغادر الزائر صفحة الويب الحالية ، يقوم المتصفح بإلغاء تحميلها
+// onresize
+
+
+// onresize = () => {
+//       document.body.style.backgroundColor = "red"
+// }
+
+//                      OR
+
+// window.addEventListener("resize",()=> {
+//       document.body.style.backgroundColor = "red"
+// })
+
+
+
+
+//                    Currency Exchange Software
+
+
+// let Form = document.getElementById("form"); 
+// let layra = document.getElementById("layra");
+// let USD = document.getElementById("USD");
+// let h = document.getElementById("h");
+
+
+// Form.style.backgroundColor = "#444";
+// Form.style.width = "200px";
+// Form.style.height = "200px";
+// Form.style.display = "flex";
+// Form.style.alignItems = "center";
+// Form.style.justifyContent = "center";
+// Form.style.flexDirection = "column";
+// Form.style.margin = "40px";
+
+// USD.style.marginTop = "10px";
+// USD.style.fontSize = "16px";
+// USD.style.color = "gray";
+// USD.style.backgroundColor = "#222";
+
+// layra.style.fontSize = "16px";
+// layra.style.color = "gray";
+// layra.style.backgroundColor = "#222";
+
+// h.style.position = "relative";
+// h.style.bottom = "20px";
+// h.style.color = "#321";
+
+
+// layra.addEventListener("focus",()=> {layra.value = "" ; layra.style.backgroundColor = "#222"});
+// USD.addEventListener("focus",()=> {USD.value = "" ; USD.style.backgroundColor = "#222"});
+
+// layra.addEventListener("keydown",()=> {USD.value = `${layra.value / 89000}$` ; USD.style.backgroundColor = "#321"})
+// USD.addEventListener("keydown",()=> {layra.value = `${USD.value * 89000}L.L` ; layra.style.backgroundColor = "#321" })
+
+
+
+
+
+
+
+
+//                      Before & After & Append
+
+
+
+// let box = document.getElementById("box");
+// let before = document.getElementById("before");
+// let after = document.getElementById("after");
+// let append = document.getElementById("append");
+// let content = document.getElementById("content");
+// let container = document.getElementById("container");
+
+
+// box.style.marginTop = "100px";
+// container.style.backgroundColor = "#444";
+// container.style.height= "50px";
+
+
+// before.onclick = () => {
+//       container.before(content)
+// }
+
+// after.onclick = () => {
+//       container.after(content)
+// }
+
+// append.onclick = () => {
+//       container.append(content)
 // }
 
 
 
 
+
+
+
+
+
+
+//                     NavBar Project
+
+
+
+
+// let box = document.getElementById("box");
+// let openBtn = document.getElementById("open");
+// let closeBtn = document.getElementById("close");
+// let container = document.getElementById("container");
+
+
+
+// closeBtn.onclick = function() {
+
+//       container.classList.add("hide")
+//       openBtn.classList.remove("hide")
+//       this.classList.add("hide")
+
+// }
+
+
+// openBtn.onclick = function() {
+
+//       container.classList.remove("hide")
+//       closeBtn.classList.remove("hide")
+//       this.classList.add("hide")
+
+// }
+
+
+
+
+
+
+
+//               Add / Remove / Toggle class
+
+
+// let hello = document.getElementById("hello");
+
+// hello.onclick = function() {
+//       hello.classList.toggle ("style");
+// }
+
+
+
+
+
+//                    auto event
+
+
+// let txt = document.getElementById("txt");
+// let btn = document.getElementById("btn");
+
+// onload = function () {
+//       txt.focus()
+
+// }
+
+// txt.oncontextmenu = function () {  
+//       txt.blur()
+// }
+
+
+
+
+
+
+
+
+//                    BOM (10)
