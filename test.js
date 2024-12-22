@@ -1237,3 +1237,92 @@
 
 
 //                    BOM (10)
+
+
+//      BOM ==> Browser Object Model ( Window Object )
+//      window ==> Global Object in BOM
+
+
+
+
+//     Window.scroll
+
+// window.document.body.style.height = "2000px";
+// window.document.body.style.width = "2000px";
+
+
+// let btn = document.createElement("button");
+// btn.innerText = "^";
+
+// btn.style.position = "fixed";
+// btn.style.bottom = "10px";
+// btn.style.right = "10px";
+// btn.style.width = "50px";
+// btn.style.height = "50px";
+// btn.style.backgroundColor = "#444";
+// btn.style.color = "#fff";
+// btn.style.fontSize = "20px";
+// btn.style.borderRadius = "50%";
+// btn.style.display = "none";
+
+// document.body.appendChild(btn);
+
+
+
+// window.onscroll = function () {
+//       if (window.scrollY > 200 || window.scrollX > 200) {
+//             btn.style.display = "block";
+//       }
+//       else {
+//             btn.style.display = "none";
+//       }
+// }
+
+
+// btn.onclick = function () {
+//       window.scrollTo({
+//             top: 0,
+//             left: 0,
+//             behavior: "smooth"
+//       })
+// }
+
+
+
+
+
+
+//     Window.screen
+
+
+// console.log(screen.width);
+// console.log(screen.height);
+// console.log(screen.availWidth);
+// console.log(screen.availHeight);
+// console.log(screen.colorDepth);
+// console.log(screen.pixelDepth);
+// console.log(screen.orientation.type);
+
+
+
+
+
+
+
+//     Window.location
+
+
+//  console.log(location.href);
+//  console.log(location.protocol);
+//  console.log(location.host);
+//  console.log(location.hostname);
+//  console.log(location.port);
+//  console.log(location.pathname);
+
+
+//  location.assign("https://www.google.com");
+//   location.replace("https://www.google.com");
+
+
+
+
