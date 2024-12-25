@@ -1326,3 +1326,115 @@
 
 
 
+
+
+
+//         SetTimeout & Setinterval
+
+     
+//         SetTimeout
+
+// let stop = setTimeout(function () {
+//        console.log("hello");
+// },3000)     // 3 sec  ==> create timer for 3 sec for once
+
+
+// clearTimeout(stop); // stop the timer
+
+
+// //         Setinterval
+
+
+// let i = 0;
+// let hello = setInterval(function () {
+//       console.log(i++);
+
+//        if (i == 5) {
+//               clearInterval(hello);
+//        }
+// },1000)     // 1 sec  ==> create timer for 1 sec for many times
+
+
+
+
+
+
+
+//      localStorage & sessionStorage
+
+// String only
+// localStorage.setItem("name","mahmoud");
+// localStorage.text = "hello";
+
+// console.log( typeof localStorage.getItem("name"));
+// console.log(localStorage.text);
+
+
+
+
+
+//  Any type
+
+// localStorage.setItem("age", JSON.stringify(22));
+// console.log(JSON.parse(localStorage.getItem("age")));
+
+
+// localStorage.anything = JSON.stringify({  //  Create Object
+//        name: "Ali",
+//        age: 44
+// })
+
+// console.log(JSON.parse(localStorage.anything));
+
+
+
+// console.log(localStorage.key(1));  // 0 ==> index ==> get item by index
+
+
+
+
+
+// // remove item
+
+// localStorage.removeItem("name"); // remove item by name
+
+// localStorage.clear(); // remove all items
+
+
+
+
+//     Keyup & LocalStorage
+
+// let txt = document.getElementById("txt");
+
+// txt.onkeyup = function () {
+//        localStorage.setItem("txt",txt.value)
+// }
+
+
+// onload = function () {
+//        txt.value = localStorage.getItem("txt")
+// }
+
+
+
+
+
+
+
+//    Change Background Color 
+
+
+// if (localStorage.length > 0) {
+//        document.body.style.backgroundColor = localStorage.color;
+// }
+
+
+// function changeColor(color) {
+
+//        localStorage.setItem("color",color)
+//        document.body.style.backgroundColor = color;
+
+// }
+
+
